@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+
+  drupal:
+    image: drupal:latest
+    ports:
+      - 8084:80
+    volumes:
+      - /var/www/html/modules
+      - /var/www/html/profiles
+      - /var/www/html/themes
+      - /var/www/html/sites
+    restart: always
+
+  mysql_database:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: redhat
+    restart: always
