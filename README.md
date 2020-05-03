@@ -35,8 +35,7 @@ git clone https://github.com/aakash1003/docker_compose_webserver.git
 python3 menu.py
 ```
 ![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/menu.PNG)
-![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/web1.PNG)
-![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/web4.PNG)
+![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/web1.PNG)(https://github.com/aakash1003/docker_compose_webserver/blob/master/web4.PNG)
 
 ## port No. used:
 `8081` : To launch Wordpress 
