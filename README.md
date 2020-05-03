@@ -9,4 +9,6 @@ $docker_repo.PNG
 
 Now run that command
 
-`yum install docker --nobest`
+``` html
+yum install docker --nobest
+```
