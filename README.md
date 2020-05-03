@@ -1,6 +1,8 @@
 # docker_compose_webserver
 It is a TUI program to launch multiple webserver simultaneously  in linux platform. This project is based on docker-compose to lauch your desired webserver within less amount of time.
 # Project Title
+It is a TUI program in which a python file is used to launch the webservers, where you can launch any webserver you want according to your will. All the webservers all using different port numbers
+thus user can launch multiple webservers simultaneously.
 ## Docker Installation in Linux platform (redhat/centos)
 Yum configuration for adding docker repo<br>
 using "https://download.docker.com/linux/centos/docker-ce.repo" put this link in the file in /etc/yum.repos.d/
@@ -28,4 +30,13 @@ chmod +x /usr/local/bin/docker-compose
 ``` html
 git clone https://github.com/aakash1003/docker_compose_webserver.git
 ```
+![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/menu.PNG)
+![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/web1.PNG)
+![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/web4.PNG)
 
+## port No. used:
+`8081` : To launch Wordpress 
+`8082` : To launch Nginx
+`8083` : To launch ghost
+`8084` : To launch drupal
+`8085` : To launch owncloud
