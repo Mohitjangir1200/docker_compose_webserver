@@ -8,4 +8,5 @@ using "https://download.docker.com/linux/centos/docker-ce.repo" put this link in
 $docker_repo.PNG 
 
 Now run that command
-yum install docker --nobest
+
+`yum install docker --nobest`
