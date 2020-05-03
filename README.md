@@ -12,3 +12,14 @@ Now run that command
 ``` html
 yum install docker --nobest
 ```
+
+## Start Docker
+``` html
+systemctl start docker
+```
+
+## Installing Docker Compose
+``` html
+curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+```
