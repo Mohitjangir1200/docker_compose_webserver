@@ -30,13 +30,21 @@ chmod +x /usr/local/bin/docker-compose
 ``` html
 git clone https://github.com/aakash1003/docker_compose_webserver.git
 ```
+## TO Run Python File:
+``` html
+python3 menu.py
+```
 ![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/menu.PNG)
 ![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/web1.PNG)
 ![alt text](https://github.com/aakash1003/docker_compose_webserver/blob/master/web4.PNG)
 
 ## port No. used:
 `8081` : To launch Wordpress 
+
 `8082` : To launch Nginx
+
 `8083` : To launch ghost
+
 `8084` : To launch drupal
+
 `8085` : To launch owncloud
